@@ -10,6 +10,10 @@ html,body{
     font-family: 'Poppins';
 }
 
+@font-face{
+    font-family: 'Custom-font';
+    src: url("../fonts/MonumentExtended-Regular.otf");
+}
 
 img{
     position: relative;
@@ -35,6 +39,16 @@ section.outro{
     justify-content: center;
 }
 
+.logo{
+    position: absolute;
+  top: 10px;
+  left: 10px;
+  transform: none;
+  z-index: 100;
+  font-family: "Custom-font";
+  color: #fff;
+  font-size: 14px;
+}
 
 
 .outro h1{
